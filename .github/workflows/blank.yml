@@ -1,0 +1,20 @@
+name: ci-cd
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  ci:
+    run-on: ubuntu-latest
+    steps:
+      - run: echo "Obter codigo"
+      - run: echo "Executar Testes"
+      - run: echo "Build da Imagem"
+      - run: push da imagem"
+    
+    
+    
+    
+    
+    
