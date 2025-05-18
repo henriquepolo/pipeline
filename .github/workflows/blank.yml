@@ -11,7 +11,7 @@ jobs:
       - run: echo "Obter codigo"
       - run: echo "Executar Testes"
       - run: echo "Build da Imagem"
-      - run: push da imagem"
+      - run: echo "push da imagem"
     
   cd:
     runs-on: ubuntu-latest
